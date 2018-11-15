@@ -1,0 +1,62 @@
+﻿@model WebUcu.Wiki.Operation.Entities.Page
+
+@{
+    ViewData["Title"] = "NewPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section HeadScripts {
+    <script src="~/js/tinymce/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: "codesample",
+            toolbar: 'undo redo styleselect bold italic alignleft aligncenter alignright bullist numlist outdent indent code codesample',
+            max_height: 700,
+            min_height: 300
+        });
+    </script>
+}
+<div class="container">
+    <div id="title-section" class="grid12 first">
+
+        <h2><a href="#">Create new wiki page</a></h2>
+
+        <p>
+            Create an awesome wiki page
+        </p>
+
+    </div>
+
+    <section class="main grid12 first">
+        <form asp-action="CreateNewPage">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content">New wiki page content !</textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tags" class="control-label"></label>
+                <input asp-for="Tags" class="form-control" />
+                <span asp-validation-for="Tags" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="IsLocked" /> @Html.DisplayNameFor(model => model.IsLocked)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+
+    </section>
+</div>

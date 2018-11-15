@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var searchListModel = ViewData["Last10Wikies"];
+}
+
+<!-- search section
+================================================== -->
+<div id="search-section" class="container">
+    <form class="cf">
+
+        <div class="grid12 col-md-12" style="height:30px;">
+            &nbsp;
+        </div>
+
+        <div class="grid4 a-left first">
+            <label for="regularInput">Search Wikies</label>
+        </div>
+
+        <div class="grid8 a-right">
+            <input type="text" id="regularInput">
+            <button type="submit">GO</button>
+        </div>
+
+
+        <div class="grid12">
+            <partial name="~/Views/Wiki/SearchList.cshtml" model="searchListModel" />
+        </div>
+    </form>
+</div>

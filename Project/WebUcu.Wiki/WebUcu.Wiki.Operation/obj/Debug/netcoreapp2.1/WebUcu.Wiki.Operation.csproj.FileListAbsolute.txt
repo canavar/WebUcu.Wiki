@@ -1,0 +1,12 @@
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.deps.json
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.dll
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.pdb
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.csproj.CoreCompileInputs.cache
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.AssemblyInfoInputs.cache
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.AssemblyInfo.cs
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.dll
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.pdb
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.csproj.CopyComplete
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.csprojAssemblyReference.cache

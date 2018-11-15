@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebUcu.Wiki.Operation.Entities.Page>
+@{
+    var currentTag = ViewData["Tag"];
+    var header = string.Format("Pages with tag : {0}", currentTag);
+
+    ViewData["Title"] = header;
+}
+
+<div id="search-section" class="container">
+    <div class="grid12">
+        <section class="main grid9 first">
+
+            <h2 class="huge">@header</h2>
+
+            <ul class="archive">
+
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <h4>
+                            <a href="@Url.Action("ViewPage", "Wiki" , new { id=item.Id })">@item.Title</a>
+                        </h4>
+                        <p class="post-info">
+                            by <span>@Html.DisplayFor(modelItem => item.ModifiedBy)</span> at @Html.DisplayFor(modelItem => item.ModifyDate)<br />
+                            tagged in
+                            @foreach (var tag in item.TagList)
+                            {
+                                <a href="@Url.Action("TagPages", "Tags" , new { tag=tag })">@tag</a>
+                            }
+                        </p>
+                    </li>
+                }
+            </ul>
+        </section>
+    </div>
+</div>

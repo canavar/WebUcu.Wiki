@@ -1,0 +1,50 @@
+﻿@model WebUcu.Wiki.Operation.Entities.Page
+
+@{
+    ViewData["Title"] = "ViewPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section HeadScripts {
+
+    <link rel="stylesheet" type="text/css" href="~/js/prism/prism.css">
+    <script src="~/js/prism/prism.js"></script>
+
+}
+
+<div class="container">
+
+    <section id="main" class="grid9 first">
+
+        <article>
+
+            <h2 class="huge">@Html.DisplayFor(model => model.Title)</h2>
+            <p class="post-info">
+                by <span><a href="#">@Html.DisplayFor(model => model.ModifiedBy)</a></span>
+                at <span>@Html.DisplayFor(model => model.ModifyDate)</span> &nbsp;
+                filed in <span><a href="#">@Html.DisplayFor(model => model.Tags)</a></span>
+            </p>
+
+            <p>
+                @Html.Raw(Model.Content)
+            </p>
+
+            <p class="tags">
+                <span>Tagged in </span>:
+                @foreach (var tag in Model.TagList)
+                {
+                    <a href="#">@tag</a> 
+                }
+            </p>
+
+            <p class="postmeta">
+                <span><a href="#">Revisions (@Model.VersionNumber)</a></span>
+                <span><a href="#">@Html.DisplayFor(model => model.ModifyDate)</a></span>
+                <span><a href="@Url.Action("Edit", "Wiki" , new { id=Model.Id })">Edit</a></span>
+            </p>
+
+        </article>
+
+    </section>
+
+</div>
