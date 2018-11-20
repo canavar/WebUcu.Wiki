@@ -41,3 +41,5 @@ E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Web\obj\Debug\netcorea
 E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Web\obj\Debug\netcoreapp2.1\Razor\Views\Wiki\SearchList.g.cshtml.cs
 E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Web\obj\Debug\netcoreapp2.1\Razor\Views\Wiki\ViewPage.g.cshtml.cs
 E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Web\obj\Debug\netcoreapp2.1\Razor\Views\Tags\TagPages.g.cshtml.cs
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Web\obj\Debug\netcoreapp2.1\Razor\Views\Search\SearchList.g.cshtml.cs
+E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Web\obj\Debug\netcoreapp2.1\Razor\Views\Search\SearchPages.g.cshtml.cs

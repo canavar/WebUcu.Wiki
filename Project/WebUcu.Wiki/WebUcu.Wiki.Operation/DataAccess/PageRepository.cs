@@ -32,6 +32,7 @@ namespace WebUcu.Wiki.Operation.DataAccess
         private readonly string selectLastTopRecordsScript = @"SELECT TOP 10 * FROM WIKI.PAGE WITH (NOLOCK) ORDER BY MODIFY_DATE DESC;";
         private readonly string selectByIdScript = @"SELECT * FROM WIKI.PAGE WITH (NOLOCK) WHERE ID = @Id;";
         private readonly string selectByTagScript = @"SELECT * FROM WIKI.PAGE WITH (NOLOCK) WHERE TAGS LIKE @TagExpression ORDER BY MODIFY_DATE DESC;";
+        private readonly string selectByContentScript = @"SELECT TOP 10 * FROM WIKI.PAGE WITH (NOLOCK) WHERE CONTENT LIKE @SearchExpression ORDER BY MODIFY_DATE DESC;";
 
         #endregion
 
@@ -96,6 +97,17 @@ namespace WebUcu.Wiki.Operation.DataAccess
             using (var connection = GetNewConnection())
             {
                 pages = connection.Query<Page>(selectByTagScript, new { TagExpression = tagExpression });
+            }
+            return pages;
+        }
+
+        public IEnumerable<Page> SelectBySearchPhrase(string searchPhrase)
+        {
+            string searchExpression = string.Format("%{0}%", searchPhrase);
+            IEnumerable<Page> pages = new List<Page>();
+            using (var connection = GetNewConnection())
+            {
+                pages = connection.Query<Page>(selectByContentScript, new { SearchExpression = searchExpression });
             }
             return pages;
         }

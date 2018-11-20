@@ -9,4 +9,3 @@ E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\ne
 E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
 E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.csproj.CopyComplete
-E:\MEE\GitHub\WebUcu.Wiki\Project\WebUcu.Wiki\WebUcu.Wiki.Operation\obj\Debug\netcoreapp2.1\WebUcu.Wiki.Operation.csprojAssemblyReference.cache

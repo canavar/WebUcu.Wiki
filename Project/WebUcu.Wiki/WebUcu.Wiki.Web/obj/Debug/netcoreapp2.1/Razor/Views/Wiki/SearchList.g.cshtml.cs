@@ -54,7 +54,7 @@ using WebUcu.Wiki.Web.Models;
             WriteLiteral("\r\n<p>\r\n    ");
             EndContext();
             BeginContext(68, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3259bd373b3a447c939e6e2979d118df", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72d16c41820c4de18cb6e509d409f611", async() => {
                 BeginContext(91, 10, true);
                 WriteLiteral("Create New");
                 EndContext();

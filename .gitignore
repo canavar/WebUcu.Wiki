@@ -3,6 +3,10 @@
 ################################################################################
 
 /Project/WebUcu.Wiki/.vs
+/Project/WebUcu.Wiki/WebUcu.Wiki.Web/bin
+/Project/WebUcu.Wiki/WebUcu.Wiki.Web/obj
+/Project/WebUcu.Wiki/WebUcu.Wiki.Operation/bin
+/Project/WebUcu.Wiki/WebUcu.Wiki.Operation/obj
 /Documents
 /Blogs
 /Tools
